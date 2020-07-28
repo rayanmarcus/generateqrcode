@@ -1,2 +1,2 @@
-# generateqrcode
+# GenerateQRCode
 Gerador de QR Code
