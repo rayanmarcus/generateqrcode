@@ -1,7 +1,7 @@
 const app = new Vue({
   el: "#app",
   data: {
-    messagemInicial: 'GERADOR DE QR CODE!',
+    messagemInicial: 'GERADOR DE QR CODE',
     url: '',
     qrCode: new QRious({
       padding: 12,
@@ -10,8 +10,8 @@ const app = new Vue({
     qrCodeImg: ''
   },
   methods: {
-    gerarQrCode: function(urlDigitada){
-      this.qrCode.value = urlDigitada;
+    gerarQrCode() {
+      this.qrCode.value = this.url;
       this.qrCodeImg = this.qrCode.toDataURL('image/jpeg');    
     }
   }

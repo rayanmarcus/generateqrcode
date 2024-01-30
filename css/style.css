@@ -1,5 +1,5 @@
 .container .row .img-qrcode{
-  background: #03032e;
-  margin-top: 10px;
+  margin: 10px 0;
   border-radius: 30px;
+  border: 1px solid #007bffb0;
 }
